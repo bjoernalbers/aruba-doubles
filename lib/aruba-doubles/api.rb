@@ -27,6 +27,7 @@ module ArubaDoubles
         f.puts "#!/usr/bin/env ruby"
         f.puts "# Doubled command line application by aruba-doubles\n"
         f.puts "require 'rubygems'"
+        f.puts "require 'cucumber'"
         f.puts "require 'yaml'"
         f.puts "require 'aruba-doubles/double'"
         f.puts "ArubaDoubles::Double.run! YAML.load %Q{"
